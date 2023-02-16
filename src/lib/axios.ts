@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export const api = axios.create({
-    baseURL: 'http://localhost:3333'
+    baseURL: 'https://habits-backend-production-06a4.up.railway.app/'
 })
